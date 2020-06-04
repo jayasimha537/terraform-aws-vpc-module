@@ -23,6 +23,18 @@ $ terraform apply
 ```
 
 # Options
+To set project name default is "myproject"
+```sh
+projectName = "myproject"
+```
+To set environment name default is "demo"
+```sh
+environmentName = "dev"
+```
+To set VPC CIDR blocl default is "10.0.0.0/16"
+```sh
+vpc_cidr = "10.0.0.0/16"
+```
 To enable NAT need to set below variable default value is false (See example code)
 ```sh
 enable_nat_gw  = true
