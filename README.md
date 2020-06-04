@@ -32,7 +32,7 @@ To set private and public subnet count. Default is 2
 public_subnets_count = 2
 private_subnets_count = 2
 ```
-To add custom nacl rules. default is enable all
+To add custom nacl rules. default is enable all. But its good to add nacl rules in tfvars file (Check example code)
 ```sh
 public_inbound_acl_rules = [
       {
